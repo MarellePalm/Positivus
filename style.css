@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*MOBIILNE VAADE*/
+@media (max-width:430px) {
+
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 10px;
+        width: 100%; 
+    }
+
+
+    
+}
+/*TAHVLI VAADE*/
+@media (max-width: 1024px) {
+
+}
+
+/*DESKTOP*/
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.navHeader, a{
+    margin: 0 12px;
+}
+
+.buttonHeader {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #191A23;
+    border-radius: 14px;
+
+    padding: 20px 35px; 
+    gap: 10px;
+}
