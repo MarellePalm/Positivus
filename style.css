@@ -38,9 +38,17 @@
         margin: 30px;
         gap: 20px;
     }
-}
-    
 
+    .servicesMain{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .servicesMainH2{
+        display: inline-block;
+    }
+}
 
 
 /*TAHVLI VAADE*/
@@ -99,6 +107,12 @@
         flex-wrap: wrap;
         margin: 100px;
     }
+
+    .servicesMain{
+        margin-left: 140px;
+        align-items: center;
+        padding-top: 150px;
+    }
 }
 
 nav {
@@ -138,8 +152,21 @@ nav {
 
 p {
     font-family: "Space Grotesk";
+    font-size: 18px;
 }
 
 .logodHeader{
     filter: grayscale(100%); 
+}
+
+.servicesMain{
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.servicesMainH2 {
+    background-color: B9FF66;
+    font-size: 40px;
+    
 }
