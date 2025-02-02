@@ -21,7 +21,7 @@
         gap: 25px;
         text-align: center;
     }
-    
+      
     .headerPicture {
         display: flex;
         align-items: center;
@@ -29,6 +29,14 @@
         width: 100%;
         height: auto;
         
+    }
+
+    .logodHeader{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 30px;
+        gap: 20px;
     }
 }
     
@@ -55,29 +63,41 @@
 /*DESKTOP*/
 @media (min-width: 1025px){
 
-    .header{
-        display: flex;
-        flex-direction: column
-    }
-
     .navigatingDiv {
         display: flex;
         flex-direction: row;
-        padding: 35px;
+        padding: 60px  70px;
+        margin-left: 100px;
+        
     }
     .navigating {
         display: flex;
         flex-direction: column;
-        flex: 1;
+        width: 33%;
         gap: 40px;
     }
 
     .headerDivPicture{
-        flex: 2;
+        width: 67%;
+        text-align: right;
+        max-width: 700px;
     }
+
     .headerPicture {
         width: 70%; 
         height: auto;
+    }
+
+    h1{
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .logodHeader{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 100px;
     }
 }
 
@@ -106,7 +126,6 @@ nav {
     gap: 10px;
 }
 
-
 .buttonNavigating {
     text-align: center;
     background-color: #191A23;
@@ -114,8 +133,13 @@ nav {
     border: 1px solid;
     border-radius: 14px;
     padding: 20px 35px;
+    align-self: flex-start;
 }
 
 p {
     font-family: "Space Grotesk";
+}
+
+.logodHeader{
+    filter: grayscale(100%); 
 }
