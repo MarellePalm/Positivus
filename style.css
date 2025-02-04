@@ -48,6 +48,17 @@
     .servicesMainH2{
         display: inline-block;
     }
+
+    .servicesBlockOne, .servicesBlockTwo, .servicesBlockThree{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .servicesBlockImage{
+        width: 70%;
+        height: auto;
+    }
 }
 
 
@@ -113,7 +124,27 @@
         align-items: center;
         padding-top: 150px;
     }
+
+    .servicesBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicesBlockOne, .servicesBlockTwo, .servicesBlockThree{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .servicesBlockText, .servicesBlockOneImage {
+        padding: 50px;
+        font-size: 20px;
+    }
+    
+    
 }
+
 
 nav {
     display: flex; 
@@ -163,6 +194,7 @@ p {
     display: flex;
     gap: 30px;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .servicesMainH2 {
@@ -171,14 +203,69 @@ p {
     
 }
 
-.servicesBlock {
+.servicesBlockOne, .servicesBlockTwo, .servicesBlockThree {
+    padding: 20px;
 
 }
 
-.servicesBlockOne {
-
+.servicesBlockOneFirst, .servicesBlockTwoSecond {
+    display: flex;
+    background-color: #F3F3F3;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
 }
 
-.servicesBlockOneFirst {
+.greenH3{
+    background-color: #B9FF66;
+    text-align: left;
+}
+
+.whiteH3{
+    background-color: #ffff;
+    text-align: left;
     
+}
+
+.servicesBlockTextIconBlack, .servicesBlockTextIconWhite {
+    width: 17%;
+    height: auto;
+    padding-top: 18px;
+}
+
+.servicesBlockOneImage{
+    text-align: right;
+}
+
+.servicesBlockOneSecond, .servicesBlockThreeFirst{
+    display: flex;
+    background-color: #B9FF66;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+}
+
+.servicesBlockTwoFirst, .servicesBlockThreeSecond{
+    display: flex;
+    background-color: #191A23;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 5px 0px 0px rgba(25, 26, 35, 1);
+}
+
+.servicesA {
+    color: #ffff;
+}
+
+.servicesBlockText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesIconLink{
+    margin-top: auto;
 }
