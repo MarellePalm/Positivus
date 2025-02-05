@@ -59,6 +59,32 @@
         width: 70%;
         height: auto;
     }
+
+    .letsMakeThingsHappen{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .letsMakeThingsHappenBox {
+        flex-direction: column; /* Muudab elemendid üksteise alla */
+        align-items: center; /* Joondab keskele */
+        text-align: center;
+    }
+
+    .letsMakeTextAndButton {
+        max-width: 90%; /* Tekst täislaiuseks */
+        text-align: center;
+        
+    }
+
+    .letsMakeText{
+        margin: 20px;
+    }
+
+    .letsMakeImg {
+        max-width: 60%; /* Pilt laiemaks mobiilis */
+        margin-top: 20px; /* Lisab ruumi enne pilti */
+    }
 }
 
 
@@ -141,6 +167,30 @@
         padding: 50px;
         font-size: 20px;
     }
+
+    .letsMakeThingsHappen{
+        margin: 200px;
+    }
+
+    .letsMakeTextAndButton {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+    }
+
+    .letsMakeText{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        text-align: left;
+        gap: 35px;
+    }
+    
+    .letsMakeImg {
+        max-width: 20%;
+        height: auto;
+    }
+    
     
     
 }
@@ -171,7 +221,7 @@ nav {
     gap: 10px;
 }
 
-.buttonNavigating {
+.buttonNavigating, .letsMakeButton {
     text-align: center;
     background-color: #191A23;
     color: white;
@@ -268,4 +318,23 @@ p {
 
 .servicesIconLink{
     margin-top: auto;
+}
+
+
+.letsMakeThingsHappenBox{
+    display: flex;
+    background-color: #F3F3F3;
+    border: 1px solid transparent;
+    border-radius: 45px;
+}
+
+.letsMakeTextAndButton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.letsMakeH3{
+    font-size: xx-large;
 }
