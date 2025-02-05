@@ -39,13 +39,13 @@
         gap: 20px;
     }
 
-    .servicesMain{
+    .servicesMain, .caseStudiesText{
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 
-    .servicesMainH2{
+    .servicesMainH2, .caseStudiesH2{
         display: inline-block;
     }
 
@@ -145,10 +145,10 @@
         margin: 100px;
     }
 
-    .servicesMain{
+    .servicesMain, .caseStudiesText{
         margin-left: 140px;
         align-items: center;
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .servicesBlock{
@@ -168,9 +168,7 @@
         font-size: 20px;
     }
 
-    .letsMakeThingsHappen{
-        margin: 200px;
-    }
+    
 
     .letsMakeTextAndButton {
         display: flex;
@@ -240,14 +238,14 @@ p {
     filter: grayscale(100%); 
 }
 
-.servicesMain{
+.servicesMain, .caseStudiesText{
     display: flex;
-    gap: 30px;
+    gap: 25px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.servicesMainH2 {
+.servicesMainH2, .caseStudiesH2 {
     background-color: B9FF66;
     font-size: 40px;
     
@@ -337,4 +335,14 @@ p {
 
 .letsMakeH3{
     font-size: xx-large;
+}
+
+.caseStudies{
+    display: flex;
+    flex-direction: row;
+    background-color: #191A23;
+    color: #ffff;
+    border: 1px solid transparent;
+    border-radius: 45px;
+    padding: 20px;
 }
