@@ -39,13 +39,13 @@
         gap: 20px;
     }
 
-    .servicesMain, .caseStudiesText{
+    .servicesMain, .caseStudiesText,.ourWorkingProcess{
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 
-    .servicesMainH2, .caseStudiesH2{
+    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2{
         display: inline-block;
     }
 
@@ -85,6 +85,22 @@
         max-width: 60%; /* Pilt laiemaks mobiilis */
         margin-top: 20px; /* Lisab ruumi enne pilti */
     }
+
+    .caseStudies{
+        display: flex;
+        flex-direction: column;
+        background-color: #191A23;
+        color: #ffff;
+        border: 1px solid transparent;
+        border-radius: 45px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    hr{
+        margin: 20px;
+    }
+    
 }
 
 
@@ -145,7 +161,7 @@
         margin: 100px;
     }
 
-    .servicesMain, .caseStudiesText{
+    .servicesMain, .caseStudiesText, .ourWorkingProcess{
         margin-left: 140px;
         align-items: center;
         padding-top: 100px;
@@ -168,7 +184,13 @@
         font-size: 20px;
     }
 
-    
+    .letsMakeThingsHappenBox{
+        display: flex;
+        background-color: #F3F3F3;
+        border: 1px solid transparent;
+        border-radius: 45px;
+        margin: 80px;
+    }
 
     .letsMakeTextAndButton {
         display: flex;
@@ -189,8 +211,23 @@
         height: auto;
     }
     
-    
-    
+    .caseStudies{
+        display: flex;
+        flex-direction: row;
+        background-color: #191A23;
+        color: #ffff;
+        border: 1px solid transparent;
+        border-radius: 45px;
+        padding: 20px;
+        margin: 150px; /*PARNDADA*/
+    }       
+
+    .caseStudyOne, .caseStudyTwo{
+        margin-left: 60px;
+    }
+    .caseStudyThree{
+        margin-left: 60px;
+    }
 }
 
 
@@ -238,14 +275,14 @@ p {
     filter: grayscale(100%); 
 }
 
-.servicesMain, .caseStudiesText{
+.servicesMain, .caseStudiesText, .ourWorkingProcess{
     display: flex;
     gap: 25px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.servicesMainH2, .caseStudiesH2 {
+.servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2 {
     background-color: B9FF66;
     font-size: 40px;
     
@@ -324,6 +361,7 @@ p {
     background-color: #F3F3F3;
     border: 1px solid transparent;
     border-radius: 45px;
+    
 }
 
 .letsMakeTextAndButton{
@@ -337,12 +375,15 @@ p {
     font-size: xx-large;
 }
 
-.caseStudies{
-    display: flex;
-    flex-direction: row;
-    background-color: #191A23;
-    color: #ffff;
-    border: 1px solid transparent;
-    border-radius: 45px;
-    padding: 20px;
+.caseStudiesLearnMore{
+    color: #B9FF66;
 }
+
+.caseStudiesIconBlack{
+    width: 25px;
+}
+
+.caseStudyOne, .caseStudyTwo{
+    padding-bottom: 20px;
+}
+
