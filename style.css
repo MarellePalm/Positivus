@@ -387,3 +387,39 @@ p {
     padding-bottom: 20px;
 }
 
+.ourWorkingProcessBoxOneLabel {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.hiddenContent {
+    display: none; /* Peidetud alguses */
+}
+
+.hiddenContent.show {
+    display: block; /* Kui klass "show" lisatakse, muutub nähtavaks */
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+}
+
+#box {
+    background-color: #F3F3F3; /* Hall taustavärv */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Kui tekst on nähtav, muudab taustavärv roheliseks */
+#box.show {
+    background-color: #B9FF66; /* Roheline taustavärv */
+}
