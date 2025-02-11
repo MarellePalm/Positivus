@@ -39,13 +39,13 @@
         gap: 20px;
     }
 
-    .servicesMain, .caseStudiesText,.ourWorkingProcess{
+    .servicesMain, .caseStudiesText,.ourWorkingProcess, .team, .testimonials, .contactUs{
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 
-    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2{
+    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2{
         display: inline-block;
     }
 
@@ -166,7 +166,7 @@
         margin: 100px;
     }
 
-    .servicesMain, .caseStudiesText, .ourWorkingProcess{
+    .servicesMain, .caseStudiesText, .ourWorkingProcess, .team, .testimonials, .contactUs{
         margin-left: 140px;
         align-items: center;
         padding-top: 100px;
@@ -285,14 +285,14 @@ p {
     filter: grayscale(100%); 
 }
 
-.servicesMain, .caseStudiesText, .ourWorkingProcess{
+.servicesMain, .caseStudiesText, .ourWorkingProcess, .team, .testimonials, .contactUs{
     display: flex;
     gap: 25px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2 {
+.servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2 {
     background-color: B9FF66;
     font-size: 40px;
     
