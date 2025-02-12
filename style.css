@@ -105,10 +105,10 @@
         margin: 20px;
     }
     
-    .teamMembersFirstRow {
+    .teamMembersFirstRow, .teamMembersSecondRow {
         display: flex;
-        flex-wrap: wrap; /* Kaardid lähevad uuele reale kui pole ruumi */
-        gap: 20px; /* Vahe elementide vahel */
+        flex-wrap: wrap; 
+        gap: 20px; 
         justify-content: center;
     }
 }
@@ -243,7 +243,14 @@
         margin: 60px;
         padding: 0 100px 0 50px;
     }
-}
+
+    .teamMembers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
 
 
 nav {
@@ -271,7 +278,7 @@ nav {
     gap: 10px;
 }
 
-.buttonNavigating, .letsMakeButton {
+.buttonNavigating, .letsMakeButton, .teamButton {
     text-align: center;
     background-color: #191A23;
     color: white;
@@ -515,7 +522,17 @@ hr ,.teamHr{
     margin: 10px 0;
 }
 
-.teamMembersFirstRow{
+.teamMembersFirstRow, .teamMembersSecondRow{
    display: flex;
    gap: 20px;
+   padding-bottom: 20px;
+}
+
+.teamButtonContainer{
+    position: relative;
+}
+
+.teamButton{
+    position: absolute;
+    right: 10px;
 }
