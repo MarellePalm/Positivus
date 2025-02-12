@@ -20,3 +20,45 @@ document.querySelectorAll(".toggleButton").forEach(function(button) {
         }
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Liikumisfunktsioonide määramine noolele
+    const leftArrow = document.querySelector(".testimonialsArrowLeft");
+    const rightArrow = document.querySelector(".testimonialsArrowRight");
+
+    let currentIndex = 0;
+
+    // Liigu vasakule
+    function moveLeft() {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = 2; // Kui oleme esimese kaardi peal, liigu viimasele
+        }
+        updateCarouselPosition();
+    }
+
+    // Liigu paremale
+    function moveRight() {
+        if (currentIndex < 2) {
+            currentIndex++;
+        } else {
+            currentIndex = 0; // Kui oleme viimase kaardi peal, liigu esimesele
+        }
+        updateCarouselPosition();
+    }
+
+    // Uuenda karusselli asukohta
+    function updateCarouselPosition() {
+        const testimonialsCards = document.querySelector('.testimonialsCards');
+        testimonialsCards.style.transform = `translateX(-${currentIndex * 320}px)`; // 320px on kaardi laius + margin
+    }
+
+    // Lisa kuulajad nooltele
+    leftArrow.addEventListener("click", moveLeft);
+    rightArrow.addEventListener("click", moveRight);
+});
+
+
+

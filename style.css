@@ -251,7 +251,7 @@
         justify-content: center;
         width: 100%;
     }
-
+}
 
 nav {
     display: flex; 
@@ -535,4 +535,60 @@ hr ,.teamHr{
 .teamButton{
     position: absolute;
     right: 10px;
+}
+
+.testimonialsBox{
+    background-color: #191A23;
+    padding: 50px 0;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonialsCardsNavigation{
+    position: relative;
+}
+
+.testimonialsCards{
+    display: flex;
+    transition: transform 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.testimonialsCards1, .testimonialsCards2, .testimonialsCards3{
+    padding: 10px;
+    border: 2px solid #B9FF66;
+    border-radius: 15px;
+    margin: 10px;
+    min-width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #F3F3F3;
+    word-wrap: break-word;
+    flex: auto;
+}
+
+.testimonialsNavigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.testimonialsArrowLeft, .testimonialsArrowRight {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.testimonialsNavigationStars {
+    flex: 1;
+    text-align: center;
 }
