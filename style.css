@@ -111,6 +111,24 @@
         gap: 20px; 
         justify-content: center;
     }
+
+    .contactUsImage{
+        display: none;
+    }
+
+    .contactUsFieldsInput{
+        width: 300px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
+
+    .contactUsFieldsInputMessage{
+        width: 300px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
 }
 
 
@@ -251,6 +269,40 @@
         justify-content: center;
         width: 100%;
     }
+
+    .contactUsBox{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactUsBoxBlock{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        gap: 545px;
+    }
+
+    .contactUsForm{
+        padding-left: 50px;
+    }
+
+    .contactUsFieldsInput{
+        width: 500px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
+
+    .contactUsFieldsInputMessage{
+        width: 500px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
 }
 
 nav {
@@ -278,7 +330,7 @@ nav {
     gap: 10px;
 }
 
-.buttonNavigating, .letsMakeButton, .teamButton {
+.buttonNavigating, .letsMakeButton, .teamButton, .contactUsMessage {
     text-align: center;
     background-color: #191A23;
     color: white;
@@ -597,24 +649,30 @@ hr ,.teamHr{
     background-color: #F3F3F3;
     border: 1px solid transparent;
     border-radius: 45px;
+    padding: 25px;
+    margin: 10px;
+    
+}
+
+.contactUsRadioButtons{
+    font-size: large;
+}
+
+input[type="radio"] {
+    accent-color: #B9FF66;
+}
+
+.contactUsLabel{
+    padding-right: 20px;
 }
 
 .contactUsFields{
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.contactUsFieldsInput{
-    width: 300px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 14px;
+    padding-top: 25px;
 }
 
 .contactUsFieldsInputMessage{
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 14px;
+    padding-top: 20px;
 }
