@@ -129,6 +129,13 @@
         border: 1px solid black;
         border-radius: 14px;
     }
+
+    .footerEmail{
+        width: 200px;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 14px;
+    }
 }
 
 
@@ -675,4 +682,45 @@ input[type="radio"] {
 
 .contactUsFieldsInputMessage{
     padding-top: 20px;
+}
+
+.footerBlock{
+    background-color: #191A23;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px
+}
+
+.footerA{
+    color: #F3F3F3;
+}
+
+.footerSocialIcons {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.footerContactUsH3{
+    background-color: #B9FF66;
+    color: #191A23;
+}
+.footerSubScription{
+    background-color: rgba(41, 42, 50, 1);
+}
+
+.footerButton{
+    text-align: center;
+    background-color: #B9FF66;
+    color: #191A23;
+    border: 1px solid;
+    border-radius: 14px;
+    padding: 20px 35px;
+    align-self: flex-start;
 }
