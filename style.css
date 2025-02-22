@@ -130,11 +130,18 @@
         border-radius: 14px;
     }
 
-    .footerEmail{
-        width: 200px;
-        height: 60px;
-        border: 1px solid black;
-        border-radius: 14px;
+    .footerElements{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        gap: 15px;
+        line-height: 1.8;
+    }
+
+    .footerBlock{
+        padding-top: 20px;
+        width: 88%;
+        margin: 0 auto;
     }
 }
 
@@ -309,6 +316,30 @@
         height: 200px;
         border: 1px solid black;
         border-radius: 14px;
+    }
+
+    .footerContacts{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footerSubScription{
+        border-radius: 14px;
+        width: 650px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footerBlock{
+        padding-top: 20px;
+        width: 88%;
+        margin: 0 auto;
     }
 }
 
@@ -652,6 +683,10 @@ hr ,.teamHr{
     text-align: center;
 }
 
+.contactUsBox{
+    padding-bottom: 30px;
+}
+
 .contactUsBoxBlock{
     background-color: #F3F3F3;
     border: 1px solid transparent;
@@ -689,10 +724,11 @@ input[type="radio"] {
     color: white;
     gap: 20px;
     padding: 20px;
-    border-radius: 20px
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.footerA{
+.footerA, .footerBr {
     color: #F3F3F3;
 }
 
@@ -715,12 +751,43 @@ input[type="radio"] {
     background-color: rgba(41, 42, 50, 1);
 }
 
+.footerEmail{
+    border: 1px solid #F3F3F3;
+    background-color: #191A23;
+    color: #F3F3F3;
+    text-indent: 10px;
+}
+
 .footerButton{
     text-align: center;
     background-color: #B9FF66;
     color: #191A23;
     border: 1px solid;
+}
+
+.footerEmail, .footerButton{
+    width: 285px;
+    height: 67px;
     border-radius: 14px;
+    font-size: 18px;
     padding: 20px 35px;
-    align-self: flex-start;
+}
+
+.footerContactUs{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+.footerLine{
+    display: block;
+    border-bottom: 1px solid white;
+}
+
+.footerText a{
+    text-decoration: underline;
+    margin-left: 80px;
+    color: #F3F3F3;
 }
