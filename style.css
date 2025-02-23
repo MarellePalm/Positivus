@@ -45,7 +45,7 @@
         padding: 10px;
     }
 
-    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2{
+    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2,{
         display: inline-block;
     }
 
@@ -66,13 +66,13 @@
     }
 
     .letsMakeThingsHappenBox {
-        flex-direction: column; /* Muudab elemendid üksteise alla */
-        align-items: center; /* Joondab keskele */
+        flex-direction: column; 
+        align-items: center; 
         text-align: center;
     }
 
     .letsMakeTextAndButton {
-        max-width: 90%; /* Tekst täislaiuseks */
+        max-width: 90%; 
         text-align: center;
         
     }
@@ -82,8 +82,8 @@
     }
 
     .letsMakeImg {
-        max-width: 60%; /* Pilt laiemaks mobiilis */
-        margin-top: 20px; /* Lisab ruumi enne pilti */
+        max-width: 60%; 
+        margin-top: 20px; 
     }
 
     .caseStudies{
@@ -97,7 +97,14 @@
         margin: 20px;
     }
 
-    hr{
+    .caseStudiesHr{
+        width: 100%;
+        border: none;
+        border: 1px solid #F3F3F3;
+        margin: 10px 0;
+    }
+
+    .ourWorkingProcessHr{
         margin: 20px;
     }
 
@@ -255,20 +262,34 @@
     
     .caseStudies{
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        gap: 10px;
         background-color: #191A23;
         color: #ffff;
         border: 1px solid transparent;
         border-radius: 45px;
-        padding: 20px;
-        margin: 150px; /*PARNDADA*/
-    }       
-
-    .caseStudyOne, .caseStudyTwo{
-        margin-left: 60px;
+        width: 85%;
+        padding: 50px 60px;
+        margin: 0 auto;
     }
-    .caseStudyThree{
-        margin-left: 60px;
+
+    .caseStudyOne, .caseStudyTwo, .caseStudyThree{
+        margin: auto 80px;
+        line-height: 1.5;
+        gap: 10px;
+
+    }
+    
+    .caseStudyOne p, .caseStudyTwo p, .caseStudyThree p{
+        margin-bottom: 15px;
+    }
+
+    .caseStudiesHr{
+        width: 2px;
+        height: 200px;
+        flex-grow: 1;
+        border: none;
+        background-color: #F3F3F3;
     }
 
     .ourWorkingProcessBoxes{
@@ -341,6 +362,8 @@
         width: 88%;
         margin: 0 auto;
     }
+
+    
 }
 
 nav {
@@ -394,7 +417,7 @@ p {
     padding-bottom: 50px;
 }
 
-.servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2 {
+.servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2{
     background-color: B9FF66;
     font-size: 40px;
     
@@ -498,12 +521,7 @@ p {
 .caseStudyOne, .caseStudyTwo{
     padding-bottom: 20px;
 }
-.caseStudiesHr{
-    width: 100%;
-    border: none;
-    border-top: 1px solid white;
-    margin: 10px 0;
-}
+
 
 .ourWorkingProcessBoxOneLabel {
     display: flex;
@@ -605,7 +623,7 @@ button img {
     width: 100%;
     gap: 10px;
 }
-hr ,.teamHr{
+.ourWorkingProcessHr ,.teamHr{
     width: 100%;
     border: none;
     border-top: 1px solid black;
@@ -744,9 +762,13 @@ input[type="radio"] {
 }
 
 .footerContactUsH3{
-    background-color: #B9FF66;
     color: #191A23;
 }
+
+.footerContactUsSpan{
+    background-color: #B9FF66;
+}
+
 .footerSubScription{
     background-color: rgba(41, 42, 50, 1);
 }
