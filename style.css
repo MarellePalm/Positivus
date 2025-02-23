@@ -119,6 +119,10 @@
         justify-content: center;
     }
 
+    .testimonialsCardsNavigation{ 
+        padding: 20px;  
+    }
+
     .contactUsImage{
         display: none;
     }
@@ -305,6 +309,32 @@
         width: 100%;
     }
 
+    .testimonialsBox{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        align-items: center;
+    }
+
+    .testimonialsCardsNavigation {
+        padding: 10px; 
+        width: 70%; 
+        max-width: 900px;
+    }
+
+    .testimonialsCards{
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+    }
+
+    
+
+    .testimonialsBubble{
+        width: 400px;
+
+    }
+
     .contactUsBox{
         display: flex;
         justify-content: center;
@@ -361,6 +391,7 @@
         padding-top: 20px;
         width: 88%;
         margin: 0 auto;
+        align-items: center;
     }
 
     
@@ -645,18 +676,19 @@ button img {
     right: 10px;
 }
 
-.testimonialsBox{
-    background-color: #191A23;
-    padding: 50px 0;
-    border-radius: 20px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
+
 
 .testimonialsCardsNavigation{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 300px; 
+    background: #000; 
+    border-radius: 20px;
     position: relative;
+    overflow: hidden;
 }
+
 
 .testimonialsCards{
     display: flex;
@@ -665,18 +697,46 @@ button img {
     box-sizing: border-box;
 }
 
-.testimonialsCards1, .testimonialsCards2, .testimonialsCards3{
-    padding: 10px;
+.testimonialsBubble{
     border: 2px solid #B9FF66;
     border-radius: 15px;
-    margin: 10px;
+    margin: 5px;
     min-width: 300px;
-    height: 300px;
+    height: 230px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
     color: #F3F3F3;
     word-wrap: break-word;
     flex: auto;
+    position: relative;
+}
+
+.testimonialsBubble::after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #B9FF66;
+    background: transparent;
+}
+
+.testimonialsCards1,.testimonialsCards2, .testimonialsCards3{
+    color: #F3F3F3;
+    text-align: left;
+    
+}
+
+.testimonialsName{
+    color: #B9FF66;
+}
+
+.testimonialsP{
+    padding-top: 40px;
+    padding-left: 60px;
 }
 
 .testimonialsNavigation {
