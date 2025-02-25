@@ -573,8 +573,10 @@ p {
 .ourWorkingProcessBoxOneLabel {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     margin: auto;
+    
 }
 
 .ourWorkingProcessBoxOneLabel p:first-child {
@@ -589,7 +591,7 @@ p {
     gap: 10px;
 }
 
-#toggleButton{
+.toggleButton{
     margin-left: auto;
 }
 
