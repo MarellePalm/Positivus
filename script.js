@@ -68,3 +68,7 @@ document.getElementById("contactButton").addEventListener("click", function() {
 document.getElementById("consultationButton").addEventListener("click", function() {
     window.location.href = "#contactUsSection"; 
 });
+
+document.getElementById("freeProposal").addEventListener("click", function() {
+    window.location.href = "#contactUsSection"; 
+});
