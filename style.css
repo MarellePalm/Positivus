@@ -45,7 +45,7 @@
         padding: 10px;
     }
 
-    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2,{
+    .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2{
         display: inline-block;
     }
 
@@ -873,3 +873,7 @@ input[type="radio"] {
     margin-left: 80px;
     color: #F3F3F3;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
