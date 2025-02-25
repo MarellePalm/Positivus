@@ -397,6 +397,8 @@
     
 }
 
+
+
 nav {
     display: flex; 
     justify-content: space-between; 
@@ -673,7 +675,7 @@ button img {
 
 .teamButton{
     position: absolute;
-    right: 10px;
+    right: 220px;
 }
 
 
@@ -877,3 +879,7 @@ input[type="radio"] {
 html {
     scroll-behavior: smooth;
   }
+
+html, body {
+    overflow-x: hidden;
+} 
