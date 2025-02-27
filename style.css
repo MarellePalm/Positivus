@@ -41,7 +41,6 @@
         justify-content: center;
         width: 100%;
         height: auto;
-        
     }
 
     .logodHeader{
@@ -87,7 +86,6 @@
     .letsMakeTextAndButton {
         max-width: 90%; 
         text-align: center;
-        
     }
 
     .letsMakeText{
@@ -169,7 +167,6 @@
         margin: 0 auto;
     }
 }
-
 
 /*TAHVLI VAADE*/
 @media (min-width:431px) and (max-width:1024px) {
@@ -269,11 +266,7 @@
         padding-top: 20px;
         width: 88%;
         margin: 0 auto;
-    }
-    
-
-
-    
+    }    
 }
 
 /*DESKTOP*/
@@ -284,8 +277,8 @@
         flex-direction: row;
         padding: 60px  70px;
         margin-left: 100px;
-        
     }
+
     .navigating {
         display: flex;
         flex-direction: column;
@@ -383,7 +376,6 @@
         margin: auto 80px;
         line-height: 1.5;
         gap: 10px;
-
     }
     
     .caseStudyOne p, .caseStudyTwo p, .caseStudyThree p{
@@ -430,11 +422,8 @@
         gap: 90px;
     }
 
-    
-
     .testimonialsBubble{
         width: 400px;
-
     }
 
     .contactUsBox{
@@ -495,11 +484,7 @@
         margin: 0 auto;
         align-items: center;
     }
-
-    
 }
-
-
 
 nav {
     display: flex; 
@@ -554,13 +539,11 @@ p {
 
 .servicesMainH2, .caseStudiesH2, .ourWorkingProcessH2, .teamH2, .testimonialsH2, .contactUsH2{
     background-color: B9FF66;
-    font-size: 40px;
-    
+    font-size: 40px; 
 }
 
 .servicesBlockOne, .servicesBlockTwo, .servicesBlockThree {
     padding: 20px;
-
 }
 
 .servicesBlockOneFirst, .servicesBlockTwoSecond {
@@ -580,7 +563,6 @@ p {
 .whiteH3{
     background-color: #ffff;
     text-align: left;
-    
 }
 
 .servicesBlockTextIconBlack, .servicesBlockTextIconWhite {
@@ -625,13 +607,11 @@ p {
     margin-top: auto;
 }
 
-
 .letsMakeThingsHappenBox{
     display: flex;
     background-color: #F3F3F3;
     border: 1px solid transparent;
     border-radius: 45px;
-    
 }
 
 .letsMakeTextAndButton{
@@ -663,8 +643,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .ourWorkingProcessBoxOneLabel p:first-child {
@@ -692,7 +671,6 @@ p {
     box-shadow: 0px 3px 0px 0px rgba(25, 26, 35, 1);
 }
 
-
 .hiddenContent {
     display: none; 
     margin-top: 50px;
@@ -714,7 +692,6 @@ button img {
     width: 30px;
     height: 30px;
 }
-
 
 .ourWorkingProcessBoxes.active {
     background-color: #B9FF66; 
@@ -760,6 +737,7 @@ button img {
     width: 100%;
     gap: 10px;
 }
+
 .ourWorkingProcessHr ,.teamHr{
     width: 100%;
     border: none;
@@ -782,8 +760,6 @@ button img {
     right: 220px;
 }
 
-
-
 .testimonialsCardsNavigation{
     display: flex;
     justify-content: center; 
@@ -794,7 +770,6 @@ button img {
     position: relative;
     overflow: hidden;
 }
-
 
 .testimonialsCards{
     display: flex;
@@ -877,7 +852,6 @@ button img {
     border-radius: 45px;
     padding: 25px;
     margin: 10px;
-    
 }
 
 .contactUsRadioButtons{
@@ -982,7 +956,7 @@ input[type="radio"] {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 html, body {
     overflow-x: hidden;
